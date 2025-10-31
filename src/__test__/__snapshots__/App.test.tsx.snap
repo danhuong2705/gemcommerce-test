@@ -1,0 +1,92 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`toUpperCase 1`] = `
+<DocumentFragment>
+  <div
+    class="w-screen h-screen bg-neutral-950 flex items-center justify-center text-neutral-100"
+  >
+    <div
+      class="w-96 bg-neutral-800 p-4 rounded-lg flex items-center justify-center"
+    >
+      <div
+        class="bg-[#151515] p-4 rounded-lg w-64 space-y-3 text-white"
+      >
+        <div
+          class="flex justify-between items-center"
+        >
+          <span
+            class="text-gray-400 text-sm"
+          >
+            Unit
+          </span>
+          <div
+            class="w-[140px] flex items-center bg-[#212121] rounded-lg p-1 space-x-1"
+          >
+            <button
+              class="px-4 py-1 rounded-md text-sm transition-colors w-[50%] cursor-pointer
+                   data-[active=true]:bg-[#424242] data-[active=true]:text-white
+                   data-[active=false]:text-gray-400 data-[active=false]:hover:text-gray-200"
+              data-active="true"
+            >
+              %
+            </button>
+            <button
+              class="px-4 py-1 rounded-md text-sm transition-colors w-[50%] cursor-pointer
+                   data-[active=true]:bg-[#424242] data-[active=true]:text-white
+                   data-[active=false]:text-gray-400 data-[active=false]:hover:text-gray-200"
+              data-active="false"
+            >
+              px
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex justify-between items-center"
+        >
+          <span
+            class="text-gray-400 text-sm"
+          >
+            Value
+          </span>
+          <div
+            class="flex items-center justify-between bg-[#212121] rounded-lg w-[140px]
+                 focus-within:ring-2 focus-within:ring-blue-500 "
+          >
+            <div
+              class="relative inline-block group"
+            >
+              <button
+                aria-label="Decrement value"
+                class="h-9 px-3 py-1 text-gray-400 transition-colors rounded-l-lg
+                     hover:bg-[#424242]  hover:text-white cursor-pointer
+                     disabled:opacity-40 disabled:cursor-not-allowed disabled:pointer-events-none"
+              >
+                -
+              </button>
+            </div>
+            <input
+              class="w-12 h-9 text-center bg-transparent text-white flex-1
+                   focus:outline-none 
+                   peer/input hover:bg-[#424242]"
+              type="text"
+              value="1"
+            />
+            <div
+              class="relative inline-block group"
+            >
+              <button
+                aria-label="Increment value"
+                class="h-9 px-3 py-1 text-gray-400 transition-colors rounded-r-lg
+                     hover:bg-[#424242]  hover:text-white cursor-pointer
+                     disabled:opacity-40 disabled:cursor-not-allowed disabled:pointer-events-none"
+              >
+                +
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
