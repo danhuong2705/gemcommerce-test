@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo } from "react";
 import UnitToggle from "./UnitToggle";
 import ValueStepper from "./ValueStepper";
 
